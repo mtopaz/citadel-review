@@ -1,19 +1,17 @@
 #!/usr/bin/env python
 """
-CITADEL Blinded Validation Review — Streamlit Cloud Version
+CITADEL Blinded Validation Review — Railway Deployment
 
 Three reviewers independently classify 200 stratified references as
 Fabricated / Citation Error / Unsure. No system verdicts shown — fully blinded.
 
-Persistence: SQLite in /tmp (ephemeral) + JSON download/upload for backup.
-Each reviewer's verdicts are auto-saved and can be exported/imported.
+Persistence: SQLite on Railway's persistent disk. Verdicts survive restarts.
 """
 
 import streamlit as st
 import sqlite3
 import json
 import os
-import io
 import urllib.parse
 from datetime import datetime
 
@@ -26,8 +24,8 @@ st.set_page_config(
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_200.json")
-# Use /tmp on Streamlit Cloud (writable), fallback to local for dev
-VERDICTS_DIR = "/tmp/citadel_verdicts" if os.path.exists("/tmp") and not os.name == 'nt' else os.path.join(BASE_DIR, "data", "verdicts")
+# Railway has persistent disk — SQLite verdicts survive restarts
+VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts")
 os.makedirs(VERDICTS_DIR, exist_ok=True)
 
 # ─── CSS (based on Nir's design) ──────────────────────────────────────────
@@ -224,24 +222,6 @@ def export_verdicts_json(reviewer_id):
     return json.dumps(export, indent=2)
 
 
-def import_verdicts_json(reviewer_id, json_data):
-    """Import verdicts from JSON backup."""
-    data = json.loads(json_data)
-    db_path = get_verdicts_db(reviewer_id)
-    conn = sqlite3.connect(db_path)
-    count = 0
-    for v in data.get("verdicts", []):
-        conn.execute("""
-            INSERT OR REPLACE INTO verdicts (review_id, pmc_id, ref_number, verdict, notes, reviewed_at)
-            VALUES (?, ?, ?, ?, ?, ?)
-        """, (v["review_id"], v.get("pmc_id", ""), v.get("ref_number", 0),
-              v["verdict"], v.get("notes", ""), v.get("reviewed_at", "")))
-        count += 1
-    conn.commit()
-    conn.close()
-    return count
-
-
 def get_next_unreviewed(verdicts, total):
     for i in range(1, total + 1):
         if i not in verdicts:
@@ -276,19 +256,11 @@ if reviewer_id is None:
     with col2:
         name = st.text_input("Your name (first name is fine)", key="reviewer_name")
 
-        # Import previous session
-        uploaded = st.file_uploader("Resume previous session (optional)", type=["json"], key="import_file")
-
         if st.button("Start Review", type="primary", use_container_width=True):
             if name.strip():
                 rid = name.strip().lower().replace(" ", "_")
                 st.session_state.reviewer_id = rid
                 init_verdicts_db(rid)
-                # Import if file uploaded
-                if uploaded is not None:
-                    json_data = uploaded.read().decode("utf-8")
-                    count = import_verdicts_json(rid, json_data)
-                    st.session_state.import_msg = f"Imported {count} verdicts from backup"
                 st.rerun()
             else:
                 st.warning("Please enter your name")
@@ -304,8 +276,8 @@ if reviewer_id is None:
         <b style="color:#a06b1a;">Citation Error</b> &mdash; Paper exists but identifiers (PMID/DOI) are wrong<br>
         <b style="color:#555550;">Unsure</b> &mdash; Cannot determine with available evidence<br><br>
         <b>Persistence:</b><br>
-        Verdicts are saved during your session. Use the <b>Export</b> button regularly<br>
-        to download a backup JSON. If the app restarts, upload it on login to resume.
+        Your verdicts are saved automatically and persist between sessions.<br>
+        Just log in with the same name to continue where you left off.
     </div>
     """)
     st.stop()
@@ -316,13 +288,6 @@ if reviewer_id is None:
 init_verdicts_db(reviewer_id)
 verdicts = load_verdicts(reviewer_id)
 reviewed_count = len(verdicts)
-
-# Show import message if any
-if "import_msg" in st.session_state:
-    st.success(st.session_state.import_msg)
-    del st.session_state.import_msg
-    verdicts = load_verdicts(reviewer_id)
-    reviewed_count = len(verdicts)
 
 # Navigation
 if "current_idx" not in st.session_state:
@@ -566,7 +531,7 @@ with right:
                 use_container_width=True,
             )
     with exp_col2:
-        st.html(f'<div style="font-size:11px; color:#918e85; margin-top:10px;">Export regularly to avoid data loss if the app restarts.</div>')
+        st.html(f'<div style="font-size:11px; color:#918e85; margin-top:10px;">Download a copy of your verdicts for your records.</div>')
 
     # Logout
     st.html('<div style="margin-top:24px;"></div>')
