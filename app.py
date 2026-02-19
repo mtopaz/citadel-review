@@ -193,8 +193,98 @@ def get_next_unreviewed(verdicts, total):
 
 # ─── Login ────────────────────────────────────────────────────────────────
 
+# ─── Admin page (?admin=1) ───────────────────────────────────────────────
+
+def admin_page():
+    """Admin dashboard: shows all reviewers' progress + full backup download."""
+    st.html("""
+    <div style="max-width:800px; margin:20px auto;">
+        <div style="font-family:'DM Mono',monospace; font-size:15px; font-weight:500;
+                    letter-spacing:3px; color:#8b6914; text-transform:uppercase; margin-bottom:20px;">
+            Citadel — Admin Dashboard
+        </div>
+    </div>
+    """)
+
+    # Find all reviewer DBs
+    all_reviewers = {}
+    if os.path.exists(VERDICTS_DIR):
+        for fname in sorted(os.listdir(VERDICTS_DIR)):
+            if fname.startswith("reviewer_") and fname.endswith(".db"):
+                rid = fname.replace("reviewer_", "").replace(".db", "")
+                db_path = os.path.join(VERDICTS_DIR, fname)
+                try:
+                    conn = sqlite3.connect(db_path)
+                    rows = conn.execute("SELECT review_id, pmc_id, ref_number, verdict, notes, reviewed_at FROM verdicts ORDER BY review_id").fetchall()
+                    conn.close()
+                    all_reviewers[rid] = rows
+                except Exception as e:
+                    all_reviewers[rid] = f"ERROR: {e}"
+
+    if not all_reviewers:
+        st.warning("No reviewer verdict files found yet.")
+        return
+
+    # Summary table
+    st.subheader("Reviewer Progress")
+    for rid, rows in all_reviewers.items():
+        if isinstance(rows, str):
+            st.error(f"**{rid}**: {rows}")
+            continue
+        v_counts = {}
+        for r in rows:
+            v_counts[r[3]] = v_counts.get(r[3], 0) + 1
+        summary = " · ".join(f"{k}: {v}" for k, v in sorted(v_counts.items()))
+        st.write(f"**{rid}**: {len(rows)}/200 reviewed — {summary}")
+
+    # Full backup as JSON
+    st.subheader("Full Backup")
+    backup = {
+        "exported_at": datetime.now().isoformat(),
+        "reviewers": {}
+    }
+    for rid, rows in all_reviewers.items():
+        if isinstance(rows, str):
+            backup["reviewers"][rid] = {"error": rows}
+        else:
+            backup["reviewers"][rid] = {
+                "total_reviewed": len(rows),
+                "verdicts": [
+                    {"review_id": r[0], "pmc_id": r[1], "ref_number": r[2],
+                     "verdict": r[3], "notes": r[4], "reviewed_at": r[5]}
+                    for r in rows
+                ]
+            }
+
+    backup_json = json.dumps(backup, indent=2, ensure_ascii=False)
+    st.download_button(
+        f"Download Full Backup ({sum(len(r) for r in all_reviewers.values() if isinstance(r, list))} verdicts)",
+        data=backup_json,
+        file_name=f"citadel_verdicts_backup_{datetime.now().strftime('%Y%m%d_%H%M')}.json",
+        mime="application/json",
+        use_container_width=True,
+    )
+
+    # Show raw data per reviewer
+    for rid, rows in all_reviewers.items():
+        if isinstance(rows, str):
+            continue
+        with st.expander(f"{rid} — {len(rows)} verdicts"):
+            for r in rows:
+                st.text(f"  #{r[0]:3d} | {r[1]} ref {r[2]} | {r[3]:20s} | {r[5]}")
+
+
+# ─── Main app ────────────────────────────────────────────────────────────
+
 sample = load_sample()
 total = len(sample)
+
+# Admin mode
+params = st.query_params
+if params.get("admin") == "1":
+    admin_page()
+    st.stop()
+
 reviewer_id = get_reviewer_id()
 
 if reviewer_id is None:
