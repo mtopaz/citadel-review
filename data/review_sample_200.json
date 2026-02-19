@@ -695,7 +695,8 @@
     "journal": "Pathogens",
     "gs_best_title": "Types and mechanisms of efflux pump systems and the potential of efflux pump inhibitors in the restoration of antimicrobial susceptibility, with a special …",
     "gs_best_sim": 0.2949,
-    "review_id": 32
+    "review_id": 32,
+    "paper_title": "Types and Mechanisms of Efflux Pump Systems and the Potential of Efflux Pump Inhibitors in the Restoration of Antimicrobial Susceptibility, with a Special Reference to Acinetobacter baumannii"
   },
   {
     "source": "scan_2024_Q4",
@@ -777,7 +778,8 @@
     "journal": "Patient preference and adherence",
     "gs_best_title": "Family‐centred practice and family outcomes in residential youth care: A systematic review",
     "gs_best_sim": 0.42780748663101603,
-    "review_id": 36
+    "review_id": 36,
+    "paper_title": "Implementing a Care Model for Bedridden Stroke Survivors: A Qualitative Study in Northeastern Thailand"
   },
   {
     "source": "scan_replacement",
@@ -793,7 +795,8 @@
     "journal": "ACG Case Reports Journal",
     "gs_best_title": "The Role of Endoscopic Sleeve Gastroplasty for the Treatment of Obesity Limiting Candidacy for Lung Transplantation",
     "gs_best_sim": 0.2717,
-    "review_id": 37
+    "review_id": 37,
+    "paper_title": "The Role of Endoscopic Sleeve Gastroplasty for the Treatment of Obesity Limiting Candidacy for Lung Transplantation"
   },
   {
     "source": "scan_2024_Q2",
@@ -831,7 +834,8 @@
     "journal": "PLOS ONE",
     "gs_best_title": "SOGC Clinical Practice Guideline. Magnesium sulphate for fetal neuroprotection.",
     "gs_best_sim": 0.6195,
-    "review_id": 39
+    "review_id": 39,
+    "paper_title": "Maternal and neonatal outcomes associated with breech presentation in planned community (home and birth center) births in the United States: A prospective observational cohort study"
   },
   {
     "source": "scan_replacement",
@@ -847,7 +851,8 @@
     "journal": "Molecules",
     "gs_best_title": "The metabolism of tumors in the body",
     "gs_best_sim": 0.5070422535211268,
-    "review_id": 40
+    "review_id": 40,
+    "paper_title": "Exometabolome and Molecular Signatures Associated with HPV 16 in Cervical Cancer: Integrative Metabolomic and Transcriptomic Analysis for Biomarker Discovery"
   },
   {
     "source": "scan_replacement",
@@ -863,7 +868,8 @@
     "journal": "Journal of surgery and research",
     "gs_best_title": "Improving prediction of heart transplantation outcome using deep learning techniques",
     "gs_best_sim": 0.5992217898832685,
-    "review_id": 41
+    "review_id": 41,
+    "paper_title": "Differential Effects of Brain Death and Circulatory Death on Myocardial Integrity and Transplant Outcomes"
   },
   {
     "source": "scan_2025_Q1",
@@ -923,7 +929,8 @@
     "journal": "ArXiv",
     "gs_best_title": "Implicit neural representations for accurate estimation of the Standard Model of white matter",
     "gs_best_sim": 0.3575,
-    "review_id": 44
+    "review_id": 44,
+    "paper_title": "Implicit neural representations for accurate estimation of the standard model of white matter"
   },
   {
     "source": "scan_2025_Q1",
@@ -1181,7 +1188,8 @@
     "journal": "Diagnostics",
     "gs_best_title": "Influence of graft type on muscle contractile dynamics after ACL reconstruction: a 9-month tensiomyographic follow-up",
     "gs_best_sim": 0.2376,
-    "review_id": 56
+    "review_id": 56,
+    "paper_title": "Influence of Graft Type on Muscle Contractile Dynamics After ACL Reconstruction: A 9-Month Tensiomyographic Follow-Up"
   },
   {
     "source": "scan_replacement",
@@ -1197,7 +1205,8 @@
     "journal": "Journal of Personalized Medicine",
     "gs_best_title": "Facial Clefts and the Trigeminal Nerve: A Narrative Review of the Literature and Clinical Considerations in the Era of Personalized Medicine",
     "gs_best_sim": 0.3534,
-    "review_id": 57
+    "review_id": 57,
+    "paper_title": "Facial Clefts and the Trigeminal Nerve: A Narrative Review of the Literature and Clinical Considerations in the Era of Personalized Medicine"
   },
   {
     "source": "scan_2025_Q1",
@@ -1235,7 +1244,8 @@
     "journal": "Materials",
     "gs_best_title": "Biocompatibility of materials dedicated to non-traumatic surgical instruments correlated to the effect of applied force of working part on the coronary vessel",
     "gs_best_sim": 0.2791,
-    "review_id": 59
+    "review_id": 59,
+    "paper_title": "Biocompatibility of Materials Dedicated to Non-Traumatic Surgical Instruments Correlated to the Effect of Applied Force of Working Part on the Coronary Vessel"
   },
   {
     "source": "scan_replacement",
@@ -1251,7 +1261,8 @@
     "journal": "Biology",
     "gs_best_title": "Anaerobic Methane Oxidation in High-Arctic Alaskan Peatlands as a Significant Control on Net CH4 Fluxes",
     "gs_best_sim": 0.5351,
-    "review_id": 60
+    "review_id": 60,
+    "paper_title": "Effect of Dry–Wet Cycling on Methanotrophs in Wetland Soils"
   },
   {
     "source": "scan_2025_Q4",
@@ -1355,7 +1366,8 @@
     "journal": "Iranian Biomedical Journal",
     "gs_best_title": "Use of the CRISPR/Cas9 System for Genome Editing of Immune System Cells, Defense Against HIV-1 and Cancer Therapies",
     "gs_best_sim": 0.4234,
-    "review_id": 65
+    "review_id": 65,
+    "paper_title": "CRISPR-Cas Technology as a Revolutionary Genome Editing tool: Mechanisms and Biomedical Applications"
   },
   {
     "source": "scan_2025_Q1",
@@ -1393,7 +1405,8 @@
     "journal": "Frontiers in Psychology",
     "gs_best_title": "When there is no justice, we need an old HERO. The trickle-down effect of psychological capital: the moderating role of organizational justice and leaders' age",
     "gs_best_sim": 0.4702,
-    "review_id": 67
+    "review_id": 67,
+    "paper_title": "When there is no justice, we need an old HERO. The trickle-down effect of psychological capital: the moderating role of organizational justice and leaders’ age"
   },
   {
     "source": "scan_2024_Q4",
@@ -1453,7 +1466,8 @@
     "journal": "Orphanet Journal of Rare Diseases",
     "gs_best_title": "Evaluating the relationship between caregiver depression, social support, and children's internalizing and externalizing symptoms in families affected by 22q11. 2 …",
     "gs_best_sim": 0.3015,
-    "review_id": 70
+    "review_id": 70,
+    "paper_title": "Evaluating the relationship between caregiver depression, social support, and children’s internalizing and externalizing symptoms in families affected by 22q11.2 deletion syndrome"
   },
   {
     "source": "scan_2024_Q3",
@@ -1513,7 +1527,8 @@
     "journal": "Techniques in Coloproctology",
     "gs_best_title": "The seagull excision technique for pilonidal sinus disease",
     "gs_best_sim": 0.589,
-    "review_id": 73
+    "review_id": 73,
+    "paper_title": "The seagull excision technique for pilonidal sinus disease"
   },
   {
     "source": "scan_2024_Q4",
@@ -1573,7 +1588,8 @@
     "journal": "Frontiers in Molecular Biosciences",
     "gs_best_title": "Phytonutrients and their neuroprotective role in brain disorders",
     "gs_best_sim": 0.5693,
-    "review_id": 76
+    "review_id": 76,
+    "paper_title": "Phytonutrients and their neuroprotective role in brain disorders"
   },
   {
     "source": "scan_replacement",
@@ -1589,7 +1605,8 @@
     "journal": "Frontiers in Immunology",
     "gs_best_title": "MerTK inhibition is a novel therapeutic approach for glioblastoma multiforme",
     "gs_best_sim": 0.6887,
-    "review_id": 77
+    "review_id": 77,
+    "paper_title": "Targeting myeloid cells to improve cancer immune therapy"
   },
   {
     "source": "scan_2025_Q2",
@@ -1649,7 +1666,8 @@
     "journal": "Frontiers in Plant Science",
     "gs_best_title": "Integrated metabolomic and transcriptomic analysis elucidates transcriptional regulation of flavonoid biosynthesis in differentially pigmented honeysuckle (Lonicera …",
     "gs_best_sim": 0.43109540636042404,
-    "review_id": 80
+    "review_id": 80,
+    "paper_title": "Integrated metabolomic and transcriptomic analysis elucidates transcriptional regulation of flavonoid biosynthesis in differentially pigmented honeysuckle (Lonicera japonica) varieties"
   },
   {
     "source": "scan_2024_Q3",
@@ -1797,7 +1815,8 @@
     "journal": "Cell Death Discovery",
     "gs_best_title": "Crossing the global quality chasm: improving health care worldwide",
     "gs_best_sim": 0.41333333333333333,
-    "review_id": 87
+    "review_id": 87,
+    "paper_title": "TDP43 is a newly identified substrate for PS1, enhancing the expression of APP following cleavage"
   },
   {
     "source": "scan_2025_Q3",
@@ -1901,7 +1920,8 @@
     "journal": "Frontiers in Sociology",
     "gs_best_title": "Social exclusion and psychopathology in LGBTQ+ communities: A neuropsychosocial review",
     "gs_best_sim": 0.3262,
-    "review_id": 92
+    "review_id": 92,
+    "paper_title": "Social exclusion and psychopathology in LGBTQ+ communities: a neuropsychosocial review"
   },
   {
     "source": "scan_2025_Q3",
@@ -1939,7 +1959,8 @@
     "journal": "Children",
     "gs_best_title": "Chronic kidney disease and growth failure in children",
     "gs_best_sim": 0.3684,
-    "review_id": 94
+    "review_id": 94,
+    "paper_title": "Chronic Kidney Disease and Growth Failure in Children"
   },
   {
     "source": "scan_replacement",
@@ -1955,7 +1976,8 @@
     "journal": "Medicine",
     "gs_best_title": "Home-based care practices on prevention of malaria in children under 5 years: A narrative review",
     "gs_best_sim": 0.5,
-    "review_id": 95
+    "review_id": 95,
+    "paper_title": "Home-based care practices on prevention of malaria in children under 5 years: A narrative review"
   },
   {
     "source": "scan_2025_Q3",
@@ -2037,7 +2059,8 @@
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Novel cobiomass degradation of NSAIDs by two wood rot fungi, Ganoderma applanatum and Laetiporus sulphureus: ligninolytic enzymes induction, isotherm and …",
     "gs_best_sim": 0.432,
-    "review_id": 99
+    "review_id": 99,
+    "paper_title": "Pharmaceutically active micropollutants: origin, hazards and removal"
   },
   {
     "source": "scan_2025_Q3",
@@ -2075,7 +2098,8 @@
     "journal": "Frontiers in Oncology",
     "gs_best_title": "Comparative analysis of ureteroileal anastomotic stricture rates: Bricker versus Wallace techniques in ileal conduit urinary diversion—a single-surgeon study …",
     "gs_best_sim": 0.4783,
-    "review_id": 101
+    "review_id": 101,
+    "paper_title": "Comparative analysis of ureteroileal anastomotic stricture rates: Bricker versus Wallace techniques in ileal conduit urinary diversion—a single-surgeon study with BMI-matched design and long-term follow-up excluding cancer recurrence bias"
   },
   {
     "source": "scan_replacement",
@@ -2091,7 +2115,8 @@
     "journal": "International Journal of Nanomedicine",
     "gs_best_title": "Drug product development: a technical review of chemistry, manufacturing, and controls information for the support of pharmaceutical compound licensing activities",
     "gs_best_sim": 0.5392670157068062,
-    "review_id": 102
+    "review_id": 102,
+    "paper_title": "Human Schwann Cell-Derived Extracellular Vesicle Isolation, Bioactivity Assessment, and Omics Characterization"
   },
   {
     "source": "scan_2025_Q4",
@@ -2129,7 +2154,8 @@
     "journal": "Materials Today Bio",
     "gs_best_title": "Highly Boosted Oxygen Reduction Reaction Activity by Tuning the Underwater Wetting State of the Superhydrophobic Electrode.",
     "gs_best_sim": 0.2651,
-    "review_id": 104
+    "review_id": 104,
+    "paper_title": "Improving ferroptosis-mediated immunotherapy for colorectal cancer through lysosome-targeted photodynamic therapy"
   },
   {
     "source": "scan_2025_Q3",
@@ -2167,7 +2193,8 @@
     "journal": "Medicine",
     "gs_best_title": "Are lipid-lowering therapies used according to the guidelines?: A real-world retrospective study of 1001 patients with type 2 diabetes",
     "gs_best_sim": 0.1905,
-    "review_id": 106
+    "review_id": 106,
+    "paper_title": "Are lipid-lowering therapies used according to the guidelines?: A real-world retrospective study of 1001 patients with type 2 diabetes"
   },
   {
     "source": "scan_replacement",
@@ -2183,7 +2210,8 @@
     "journal": "Clinical nutrition (Edinburgh, Scotland)",
     "gs_best_title": "Dietary fat intakes for pregnant and lactating women",
     "gs_best_sim": 0.5778,
-    "review_id": 107
+    "review_id": 107,
+    "paper_title": "Early and late preterm birth rates in participants adherent to randomly assigned high dose docosahexaenoic acid (DHA) supplementation in pregnancy"
   },
   {
     "source": "scan_2025_Q3",
@@ -2309,7 +2337,8 @@
     "journal": "BMC Nursing",
     "gs_best_title": "Navigating the chaos: a scoping review of gaps in disaster nursing and a roadmap for the future",
     "gs_best_sim": 0.2857,
-    "review_id": 113
+    "review_id": 113,
+    "paper_title": "Navigating the chaos: a scoping review of gaps in disaster nursing and a roadmap for the future"
   },
   {
     "source": "scan_2024_Q1",
@@ -2567,7 +2596,8 @@
     "journal": "Antibiotics",
     "gs_best_title": "Nitric Oxide-Releasing Gels in the Context of Antimicrobial Stewardship, Biofilm Management, and Wound-Repair Biology",
     "gs_best_sim": 0.28,
-    "review_id": 125
+    "review_id": 125,
+    "paper_title": "Nitric Oxide-Releasing Gels in the Context of Antimicrobial Stewardship, Biofilm Management, and Wound-Repair Biology"
   },
   {
     "source": "scan_2025_Q4",
@@ -2671,7 +2701,8 @@
     "journal": "Hypertension (Dallas, Tex. : 1979)",
     "gs_best_title": "Gut microbiota–host post-translational modification axis in immunometabolic diseases",
     "gs_best_sim": 0.5439,
-    "review_id": 130
+    "review_id": 130,
+    "paper_title": "Food as Medicine for Hypertension: Microbiota as Mediators"
   },
   {
     "source": "scan_2024_Q4",
@@ -2709,7 +2740,8 @@
     "journal": "Theranostics",
     "gs_best_title": "Advances in the engineering of living probiotics for cancer immunotherapy",
     "gs_best_sim": 0.6275,
-    "review_id": 132
+    "review_id": 132,
+    "paper_title": "Advances in the engineering of living probiotics for cancer immunotherapy"
   },
   {
     "source": "scan_2025_Q4",
@@ -2791,7 +2823,8 @@
     "journal": "Soft Matter",
     "gs_best_title": "A technique to create hydrogels with tethered concentration gradients of molecules in vitro",
     "gs_best_sim": 0.2774,
-    "review_id": 136
+    "review_id": 136,
+    "paper_title": "A technique to create hydrogels with tethered concentration gradients of molecules in vitro"
   },
   {
     "source": "scan_replacement",
@@ -2807,7 +2840,8 @@
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Amended biochar in constructed wetlands: Roles, challenges, and future directions removing pharmaceuticals and personal care products",
     "gs_best_sim": 0.5702127659574469,
-    "review_id": 137
+    "review_id": 137,
+    "paper_title": "Pharmaceutically active micropollutants: origin, hazards and removal"
   },
   {
     "source": "scan_2025_Q1",
@@ -2867,7 +2901,8 @@
     "journal": "IJTLD OPEN",
     "gs_best_title": "WHO operational handbook on tuberculosis. Module 6: tuberculosis and comorbidities",
     "gs_best_sim": 0.6557,
-    "review_id": 140
+    "review_id": 140,
+    "paper_title": "Yield of TB screening in prisons in Tajikistan"
   },
   {
     "source": "scan_2025_Q3",
@@ -2905,7 +2940,8 @@
     "journal": "Frontiers in Immunology",
     "gs_best_title": "SCGB1A1 rs3741240 variant downregulates CC16: a molecular insight into COPD pathogenesis in Indian population",
     "gs_best_sim": 0.44357976653696496,
-    "review_id": 142
+    "review_id": 142,
+    "paper_title": "SCGB1A1 rs3741240 variant downregulates CC16: a molecular insight into COPD pathogenesis in Indian population"
   },
   {
     "source": "scan_2024_Q4",
@@ -3009,7 +3045,8 @@
     "journal": "Health and Quality of Life Outcomes",
     "gs_best_title": "A novel child-centred core palliative care outcome measure for use in clinical practice and research: findings from a multinational validation study",
     "gs_best_sim": 0.2062,
-    "review_id": 147
+    "review_id": 147,
+    "paper_title": "A novel child-centred core palliative care outcome measure for use in clinical practice and research: findings from a multinational validation study"
   },
   {
     "source": "scan_2025_Q4",
@@ -3047,7 +3084,8 @@
     "journal": "Medical Oncology (Northwood, London, England)",
     "gs_best_title": "Characterization of lncRNAs contributing to drug resistance in epithelial ovarian cancer",
     "gs_best_sim": 0.4286,
-    "review_id": 149
+    "review_id": 149,
+    "paper_title": "Characterization of lncRNAs contributing to drug resistance in epithelial ovarian cancer"
   },
   {
     "source": "scan_replacement",
@@ -3063,7 +3101,8 @@
     "journal": "The World Journal of Men's Health",
     "gs_best_title": "Testosterone effects on cognition in health and disease.",
     "gs_best_sim": 0.5227,
-    "review_id": 150
+    "review_id": 150,
+    "paper_title": "Do Strength and Anthropometric Size of the Lower Body Correlate with Serum Testosterone Levels?"
   },
   {
     "source": "scan_replacement",
@@ -3079,7 +3118,8 @@
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Basidiomycete pigments as sustainable food colorants and stabilizers: from fungal biology to industrial potential",
     "gs_best_sim": 0.2767,
-    "review_id": 151
+    "review_id": 151,
+    "paper_title": "Basidiomycete pigments as sustainable food colorants and stabilizers: from fungal biology to industrial potential"
   },
   {
     "source": "scan_2024_Q2",
@@ -3205,7 +3245,8 @@
     "journal": "Frontiers in Psychology",
     "gs_best_title": "Identifying emotional components of event-related potentials in the brain functioning of individuals with contamination obsessions and comparison with healthy control …",
     "gs_best_sim": 0.2294,
-    "review_id": 157
+    "review_id": 157,
+    "paper_title": "Identifying emotional components of event-related potentials in the brain functioning of individuals with contamination obsessions and comparison with healthy control group"
   },
   {
     "source": "scan_2024_Q2",
@@ -3243,7 +3284,8 @@
     "journal": "Bioengineering",
     "gs_best_title": "The impact of visual-spatial attention on reading and spelling in Chinese children",
     "gs_best_sim": 0.5283018867924528,
-    "review_id": 159
+    "review_id": 159,
+    "paper_title": "Sensory–Cognitive Profiles in Children with ADHD: Exploring Perceptual–Motor, Auditory, and Oculomotor Function"
   },
   {
     "source": "scan_replacement",
@@ -3259,7 +3301,8 @@
     "journal": "Frontiers in Psychology",
     "gs_best_title": "Inner speech and the body error theory",
     "gs_best_sim": 0.5,
-    "review_id": 160
+    "review_id": 160,
+    "paper_title": "Inner speech and the body error theory"
   },
   {
     "source": "scan_2025_Q3",
@@ -3297,7 +3340,8 @@
     "journal": "PLOS ONE",
     "gs_best_title": "Prox1 function is required for the development of the murine lymphatic system",
     "gs_best_sim": 0.4828,
-    "review_id": 162
+    "review_id": 162,
+    "paper_title": "Zmiz1 is a novel regulator of lymphatic endothelial cell gene expression and function"
   },
   {
     "source": "scan_2024_Q1",
@@ -3401,7 +3445,8 @@
     "journal": "Pharmaceuticals",
     "gs_best_title": "Natural Products in Diabetes Mellitus",
     "gs_best_sim": 0.304,
-    "review_id": 167
+    "review_id": 167,
+    "paper_title": "Natural Products in Diabetes Mellitus: 2nd Edition"
   },
   {
     "source": "scan_2023_Q3",
@@ -3461,7 +3506,8 @@
     "journal": "Nature Communications",
     "gs_best_title": "Mass cytometric cell cycle analysis",
     "gs_best_sim": 0.5556,
-    "review_id": 170
+    "review_id": 170,
+    "paper_title": "Immuno-metabolic dendritic cell vaccine signatures associate with overall survival in vaccinated melanoma patients"
   },
   {
     "source": "scan_2024_Q3",
@@ -3521,7 +3567,8 @@
     "journal": "Frontiers in Surgery",
     "gs_best_title": "Advances in the use of non-intubated spontaneous-ventilation video-assisted thoracoscopic surgery",
     "gs_best_sim": 0.3411,
-    "review_id": 173
+    "review_id": 173,
+    "paper_title": "Advances in the use of non-intubated spontaneous-ventilation video-assisted thoracoscopic surgery"
   },
   {
     "source": "scan_2025_Q2",
@@ -3625,7 +3672,8 @@
     "journal": "Sultan Qaboos University Medical Journal",
     "gs_best_title": "Etoposide-Associated Severe Rhabdomyolysis in a Patient with Diffuse Large B-Cell Lymphoma: A case report and review of the literature",
     "gs_best_sim": 0.3602,
-    "review_id": 178
+    "review_id": 178,
+    "paper_title": "Etoposide-Associated Severe Rhabdomyolysis in a Patient with Diffuse Large B-Cell Lymphoma: A case report and review of the literature"
   },
   {
     "source": "scan_replacement",
@@ -3641,7 +3689,8 @@
     "journal": "Cureus",
     "gs_best_title": "Atypical Nail Manifestations in Kawasaki Disease: Orange-Brown Chromonychia in a Three-Year-Old Boy.",
     "gs_best_sim": 0.3852,
-    "review_id": 179
+    "review_id": 179,
+    "paper_title": "Atypical Nail Manifestations in Kawasaki Disease: Orange-Brown Chromonychia in a Three-Year-Old Boy"
   },
   {
     "source": "scan_2024_Q1",
@@ -3679,7 +3728,8 @@
     "journal": "Frontiers in Endocrinology",
     "gs_best_title": "From hypercortisolism to remission: impact of Cushing's disease on eating patterns",
     "gs_best_sim": 0.3791,
-    "review_id": 181
+    "review_id": 181,
+    "paper_title": "From hypercortisolism to remission: impact of Cushing’s disease on eating patterns"
   },
   {
     "source": "scan_replacement",
@@ -3695,7 +3745,8 @@
     "journal": "PLOS Biology",
     "gs_best_title": "Data Reproducibility",
     "gs_best_sim": 0.6792,
-    "review_id": 182
+    "review_id": 182,
+    "paper_title": "Biomedical researchers’ perspectives on the reproducibility of research"
   },
   {
     "source": "scan_2025_Q1",
@@ -3865,7 +3916,8 @@
     "journal": "Frontiers in Pharmacology",
     "gs_best_title": "Repurposing major metabolites of lamiaceae family as potential inhibitors of α-synuclein aggregation to alleviate neurodegenerative diseases: an in silico approach",
     "gs_best_sim": 0.2152,
-    "review_id": 190
+    "review_id": 190,
+    "paper_title": "Repurposing major metabolites of lamiaceae family as potential inhibitors of α-synuclein aggregation to alleviate neurodegenerative diseases: an in silico approach"
   },
   {
     "source": "scan_2024_Q3",
@@ -3991,7 +4043,8 @@
     "journal": "Clinical, Cosmetic and Investigational Dentistry",
     "gs_best_title": "Radiomorphometric Analysis of the Greater Palatine Canal and the Pterygopalatine Fossa Using Cone Beam Computed Tomography: A Retrospective Study",
     "gs_best_sim": 0.3733,
-    "review_id": 196
+    "review_id": 196,
+    "paper_title": "Radiomorphometric Analysis of the Greater Palatine Canal and the Pterygopalatine Fossa Using Cone Beam Computed Tomography: A Retrospective Study"
   },
   {
     "source": "scan_replacement",
@@ -4007,7 +4060,8 @@
     "journal": "Current Issues in Molecular Biology",
     "gs_best_title": "Evaluation of miRNA profile and its relationship with metabolic disorders in obese and pre-obese patients",
     "gs_best_sim": 0.253,
-    "review_id": 197
+    "review_id": 197,
+    "paper_title": "Evaluation of miRNA Profile and Its Relationship with Metabolic Disorders in Obese and Pre-Obese Patients"
   },
   {
     "source": "scan_2025_Q4",
