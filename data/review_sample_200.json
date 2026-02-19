@@ -694,7 +694,8 @@
     "category": "wrong_pmid",
     "journal": "Pathogens",
     "gs_best_title": "Types and mechanisms of efflux pump systems and the potential of efflux pump inhibitors in the restoration of antimicrobial susceptibility, with a special …",
-    "gs_best_sim": 0.2949
+    "gs_best_sim": 0.2949,
+    "review_id": 32
   },
   {
     "source": "scan_2024_Q4",
@@ -775,7 +776,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Patient preference and adherence",
     "gs_best_title": "Family‐centred practice and family outcomes in residential youth care: A systematic review",
-    "gs_best_sim": 0.42780748663101603
+    "gs_best_sim": 0.42780748663101603,
+    "review_id": 36
   },
   {
     "source": "scan_replacement",
@@ -790,7 +792,8 @@
     "category": "wrong_pmid",
     "journal": "ACG Case Reports Journal",
     "gs_best_title": "The Role of Endoscopic Sleeve Gastroplasty for the Treatment of Obesity Limiting Candidacy for Lung Transplantation",
-    "gs_best_sim": 0.2717
+    "gs_best_sim": 0.2717,
+    "review_id": 37
   },
   {
     "source": "scan_2024_Q2",
@@ -827,7 +830,8 @@
     "category": "wrong_pmid",
     "journal": "PLOS ONE",
     "gs_best_title": "SOGC Clinical Practice Guideline. Magnesium sulphate for fetal neuroprotection.",
-    "gs_best_sim": 0.6195
+    "gs_best_sim": 0.6195,
+    "review_id": 39
   },
   {
     "source": "scan_replacement",
@@ -842,7 +846,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Molecules",
     "gs_best_title": "The metabolism of tumors in the body",
-    "gs_best_sim": 0.5070422535211268
+    "gs_best_sim": 0.5070422535211268,
+    "review_id": 40
   },
   {
     "source": "scan_replacement",
@@ -857,7 +862,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Journal of surgery and research",
     "gs_best_title": "Improving prediction of heart transplantation outcome using deep learning techniques",
-    "gs_best_sim": 0.5992217898832685
+    "gs_best_sim": 0.5992217898832685,
+    "review_id": 41
   },
   {
     "source": "scan_2025_Q1",
@@ -916,7 +922,8 @@
     "category": "wrong_pmid",
     "journal": "ArXiv",
     "gs_best_title": "Implicit neural representations for accurate estimation of the Standard Model of white matter",
-    "gs_best_sim": 0.3575
+    "gs_best_sim": 0.3575,
+    "review_id": 44
   },
   {
     "source": "scan_2025_Q1",
@@ -1173,7 +1180,8 @@
     "category": "wrong_pmid",
     "journal": "Diagnostics",
     "gs_best_title": "Influence of graft type on muscle contractile dynamics after ACL reconstruction: a 9-month tensiomyographic follow-up",
-    "gs_best_sim": 0.2376
+    "gs_best_sim": 0.2376,
+    "review_id": 56
   },
   {
     "source": "scan_replacement",
@@ -1188,7 +1196,8 @@
     "category": "wrong_pmid",
     "journal": "Journal of Personalized Medicine",
     "gs_best_title": "Facial Clefts and the Trigeminal Nerve: A Narrative Review of the Literature and Clinical Considerations in the Era of Personalized Medicine",
-    "gs_best_sim": 0.3534
+    "gs_best_sim": 0.3534,
+    "review_id": 57
   },
   {
     "source": "scan_2025_Q1",
@@ -1225,7 +1234,8 @@
     "category": "wrong_pmid",
     "journal": "Materials",
     "gs_best_title": "Biocompatibility of materials dedicated to non-traumatic surgical instruments correlated to the effect of applied force of working part on the coronary vessel",
-    "gs_best_sim": 0.2791
+    "gs_best_sim": 0.2791,
+    "review_id": 59
   },
   {
     "source": "scan_replacement",
@@ -1240,7 +1250,8 @@
     "category": "wrong_pmid",
     "journal": "Biology",
     "gs_best_title": "Anaerobic Methane Oxidation in High-Arctic Alaskan Peatlands as a Significant Control on Net CH4 Fluxes",
-    "gs_best_sim": 0.5351
+    "gs_best_sim": 0.5351,
+    "review_id": 60
   },
   {
     "source": "scan_2025_Q4",
@@ -1343,7 +1354,8 @@
     "category": "wrong_pmid",
     "journal": "Iranian Biomedical Journal",
     "gs_best_title": "Use of the CRISPR/Cas9 System for Genome Editing of Immune System Cells, Defense Against HIV-1 and Cancer Therapies",
-    "gs_best_sim": 0.4234
+    "gs_best_sim": 0.4234,
+    "review_id": 65
   },
   {
     "source": "scan_2025_Q1",
@@ -1380,7 +1392,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Psychology",
     "gs_best_title": "When there is no justice, we need an old HERO. The trickle-down effect of psychological capital: the moderating role of organizational justice and leaders' age",
-    "gs_best_sim": 0.4702
+    "gs_best_sim": 0.4702,
+    "review_id": 67
   },
   {
     "source": "scan_2024_Q4",
@@ -1439,7 +1452,8 @@
     "category": "wrong_pmid",
     "journal": "Orphanet Journal of Rare Diseases",
     "gs_best_title": "Evaluating the relationship between caregiver depression, social support, and children's internalizing and externalizing symptoms in families affected by 22q11. 2 …",
-    "gs_best_sim": 0.3015
+    "gs_best_sim": 0.3015,
+    "review_id": 70
   },
   {
     "source": "scan_2024_Q3",
@@ -1498,7 +1512,8 @@
     "category": "wrong_pmid",
     "journal": "Techniques in Coloproctology",
     "gs_best_title": "The seagull excision technique for pilonidal sinus disease",
-    "gs_best_sim": 0.589
+    "gs_best_sim": 0.589,
+    "review_id": 73
   },
   {
     "source": "scan_2024_Q4",
@@ -1557,7 +1572,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Molecular Biosciences",
     "gs_best_title": "Phytonutrients and their neuroprotective role in brain disorders",
-    "gs_best_sim": 0.5693
+    "gs_best_sim": 0.5693,
+    "review_id": 76
   },
   {
     "source": "scan_replacement",
@@ -1572,7 +1588,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Immunology",
     "gs_best_title": "MerTK inhibition is a novel therapeutic approach for glioblastoma multiforme",
-    "gs_best_sim": 0.6887
+    "gs_best_sim": 0.6887,
+    "review_id": 77
   },
   {
     "source": "scan_2025_Q2",
@@ -1631,7 +1648,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Frontiers in Plant Science",
     "gs_best_title": "Integrated metabolomic and transcriptomic analysis elucidates transcriptional regulation of flavonoid biosynthesis in differentially pigmented honeysuckle (Lonicera …",
-    "gs_best_sim": 0.43109540636042404
+    "gs_best_sim": 0.43109540636042404,
+    "review_id": 80
   },
   {
     "source": "scan_2024_Q3",
@@ -1778,7 +1796,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Cell Death Discovery",
     "gs_best_title": "Crossing the global quality chasm: improving health care worldwide",
-    "gs_best_sim": 0.41333333333333333
+    "gs_best_sim": 0.41333333333333333,
+    "review_id": 87
   },
   {
     "source": "scan_2025_Q3",
@@ -1881,7 +1900,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Sociology",
     "gs_best_title": "Social exclusion and psychopathology in LGBTQ+ communities: A neuropsychosocial review",
-    "gs_best_sim": 0.3262
+    "gs_best_sim": 0.3262,
+    "review_id": 92
   },
   {
     "source": "scan_2025_Q3",
@@ -1918,7 +1938,8 @@
     "category": "wrong_pmid",
     "journal": "Children",
     "gs_best_title": "Chronic kidney disease and growth failure in children",
-    "gs_best_sim": 0.3684
+    "gs_best_sim": 0.3684,
+    "review_id": 94
   },
   {
     "source": "scan_replacement",
@@ -1933,7 +1954,8 @@
     "category": "wrong_pmid",
     "journal": "Medicine",
     "gs_best_title": "Home-based care practices on prevention of malaria in children under 5 years: A narrative review",
-    "gs_best_sim": 0.5
+    "gs_best_sim": 0.5,
+    "review_id": 95
   },
   {
     "source": "scan_2025_Q3",
@@ -2014,7 +2036,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Novel cobiomass degradation of NSAIDs by two wood rot fungi, Ganoderma applanatum and Laetiporus sulphureus: ligninolytic enzymes induction, isotherm and …",
-    "gs_best_sim": 0.432
+    "gs_best_sim": 0.432,
+    "review_id": 99
   },
   {
     "source": "scan_2025_Q3",
@@ -2051,7 +2074,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Oncology",
     "gs_best_title": "Comparative analysis of ureteroileal anastomotic stricture rates: Bricker versus Wallace techniques in ileal conduit urinary diversion—a single-surgeon study …",
-    "gs_best_sim": 0.4783
+    "gs_best_sim": 0.4783,
+    "review_id": 101
   },
   {
     "source": "scan_replacement",
@@ -2066,7 +2090,8 @@
     "category": "llm_confirmed_fake",
     "journal": "International Journal of Nanomedicine",
     "gs_best_title": "Drug product development: a technical review of chemistry, manufacturing, and controls information for the support of pharmaceutical compound licensing activities",
-    "gs_best_sim": 0.5392670157068062
+    "gs_best_sim": 0.5392670157068062,
+    "review_id": 102
   },
   {
     "source": "scan_2025_Q4",
@@ -2103,7 +2128,8 @@
     "category": "wrong_pmid",
     "journal": "Materials Today Bio",
     "gs_best_title": "Highly Boosted Oxygen Reduction Reaction Activity by Tuning the Underwater Wetting State of the Superhydrophobic Electrode.",
-    "gs_best_sim": 0.2651
+    "gs_best_sim": 0.2651,
+    "review_id": 104
   },
   {
     "source": "scan_2025_Q3",
@@ -2140,7 +2166,8 @@
     "category": "wrong_pmid",
     "journal": "Medicine",
     "gs_best_title": "Are lipid-lowering therapies used according to the guidelines?: A real-world retrospective study of 1001 patients with type 2 diabetes",
-    "gs_best_sim": 0.1905
+    "gs_best_sim": 0.1905,
+    "review_id": 106
   },
   {
     "source": "scan_replacement",
@@ -2155,7 +2182,8 @@
     "category": "wrong_pmid",
     "journal": "Clinical nutrition (Edinburgh, Scotland)",
     "gs_best_title": "Dietary fat intakes for pregnant and lactating women",
-    "gs_best_sim": 0.5778
+    "gs_best_sim": 0.5778,
+    "review_id": 107
   },
   {
     "source": "scan_2025_Q3",
@@ -2280,7 +2308,8 @@
     "category": "wrong_pmid",
     "journal": "BMC Nursing",
     "gs_best_title": "Navigating the chaos: a scoping review of gaps in disaster nursing and a roadmap for the future",
-    "gs_best_sim": 0.2857
+    "gs_best_sim": 0.2857,
+    "review_id": 113
   },
   {
     "source": "scan_2024_Q1",
@@ -2537,7 +2566,8 @@
     "category": "wrong_pmid",
     "journal": "Antibiotics",
     "gs_best_title": "Nitric Oxide-Releasing Gels in the Context of Antimicrobial Stewardship, Biofilm Management, and Wound-Repair Biology",
-    "gs_best_sim": 0.28
+    "gs_best_sim": 0.28,
+    "review_id": 125
   },
   {
     "source": "scan_2025_Q4",
@@ -2640,7 +2670,8 @@
     "category": "wrong_pmid",
     "journal": "Hypertension (Dallas, Tex. : 1979)",
     "gs_best_title": "Gut microbiota–host post-translational modification axis in immunometabolic diseases",
-    "gs_best_sim": 0.5439
+    "gs_best_sim": 0.5439,
+    "review_id": 130
   },
   {
     "source": "scan_2024_Q4",
@@ -2677,7 +2708,8 @@
     "category": "wrong_pmid",
     "journal": "Theranostics",
     "gs_best_title": "Advances in the engineering of living probiotics for cancer immunotherapy",
-    "gs_best_sim": 0.6275
+    "gs_best_sim": 0.6275,
+    "review_id": 132
   },
   {
     "source": "scan_2025_Q4",
@@ -2758,7 +2790,8 @@
     "category": "wrong_pmid",
     "journal": "Soft Matter",
     "gs_best_title": "A technique to create hydrogels with tethered concentration gradients of molecules in vitro",
-    "gs_best_sim": 0.2774
+    "gs_best_sim": 0.2774,
+    "review_id": 136
   },
   {
     "source": "scan_replacement",
@@ -2773,7 +2806,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Amended biochar in constructed wetlands: Roles, challenges, and future directions removing pharmaceuticals and personal care products",
-    "gs_best_sim": 0.5702127659574469
+    "gs_best_sim": 0.5702127659574469,
+    "review_id": 137
   },
   {
     "source": "scan_2025_Q1",
@@ -2832,7 +2866,8 @@
     "category": "wrong_pmid",
     "journal": "IJTLD OPEN",
     "gs_best_title": "WHO operational handbook on tuberculosis. Module 6: tuberculosis and comorbidities",
-    "gs_best_sim": 0.6557
+    "gs_best_sim": 0.6557,
+    "review_id": 140
   },
   {
     "source": "scan_2025_Q3",
@@ -2869,7 +2904,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Frontiers in Immunology",
     "gs_best_title": "SCGB1A1 rs3741240 variant downregulates CC16: a molecular insight into COPD pathogenesis in Indian population",
-    "gs_best_sim": 0.44357976653696496
+    "gs_best_sim": 0.44357976653696496,
+    "review_id": 142
   },
   {
     "source": "scan_2024_Q4",
@@ -2972,7 +3008,8 @@
     "category": "wrong_pmid",
     "journal": "Health and Quality of Life Outcomes",
     "gs_best_title": "A novel child-centred core palliative care outcome measure for use in clinical practice and research: findings from a multinational validation study",
-    "gs_best_sim": 0.2062
+    "gs_best_sim": 0.2062,
+    "review_id": 147
   },
   {
     "source": "scan_2025_Q4",
@@ -3009,7 +3046,8 @@
     "category": "wrong_pmid",
     "journal": "Medical Oncology (Northwood, London, England)",
     "gs_best_title": "Characterization of lncRNAs contributing to drug resistance in epithelial ovarian cancer",
-    "gs_best_sim": 0.4286
+    "gs_best_sim": 0.4286,
+    "review_id": 149
   },
   {
     "source": "scan_replacement",
@@ -3024,7 +3062,8 @@
     "category": "wrong_pmid",
     "journal": "The World Journal of Men's Health",
     "gs_best_title": "Testosterone effects on cognition in health and disease.",
-    "gs_best_sim": 0.5227
+    "gs_best_sim": 0.5227,
+    "review_id": 150
   },
   {
     "source": "scan_replacement",
@@ -3039,7 +3078,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Microbiology",
     "gs_best_title": "Basidiomycete pigments as sustainable food colorants and stabilizers: from fungal biology to industrial potential",
-    "gs_best_sim": 0.2767
+    "gs_best_sim": 0.2767,
+    "review_id": 151
   },
   {
     "source": "scan_2024_Q2",
@@ -3164,7 +3204,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Psychology",
     "gs_best_title": "Identifying emotional components of event-related potentials in the brain functioning of individuals with contamination obsessions and comparison with healthy control …",
-    "gs_best_sim": 0.2294
+    "gs_best_sim": 0.2294,
+    "review_id": 157
   },
   {
     "source": "scan_2024_Q2",
@@ -3201,7 +3242,8 @@
     "category": "llm_confirmed_fake",
     "journal": "Bioengineering",
     "gs_best_title": "The impact of visual-spatial attention on reading and spelling in Chinese children",
-    "gs_best_sim": 0.5283018867924528
+    "gs_best_sim": 0.5283018867924528,
+    "review_id": 159
   },
   {
     "source": "scan_replacement",
@@ -3216,7 +3258,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Psychology",
     "gs_best_title": "Inner speech and the body error theory",
-    "gs_best_sim": 0.5
+    "gs_best_sim": 0.5,
+    "review_id": 160
   },
   {
     "source": "scan_2025_Q3",
@@ -3253,7 +3296,8 @@
     "category": "wrong_pmid",
     "journal": "PLOS ONE",
     "gs_best_title": "Prox1 function is required for the development of the murine lymphatic system",
-    "gs_best_sim": 0.4828
+    "gs_best_sim": 0.4828,
+    "review_id": 162
   },
   {
     "source": "scan_2024_Q1",
@@ -3356,7 +3400,8 @@
     "category": "wrong_pmid",
     "journal": "Pharmaceuticals",
     "gs_best_title": "Natural Products in Diabetes Mellitus",
-    "gs_best_sim": 0.304
+    "gs_best_sim": 0.304,
+    "review_id": 167
   },
   {
     "source": "scan_2023_Q3",
@@ -3415,7 +3460,8 @@
     "category": "wrong_pmid",
     "journal": "Nature Communications",
     "gs_best_title": "Mass cytometric cell cycle analysis",
-    "gs_best_sim": 0.5556
+    "gs_best_sim": 0.5556,
+    "review_id": 170
   },
   {
     "source": "scan_2024_Q3",
@@ -3474,7 +3520,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Surgery",
     "gs_best_title": "Advances in the use of non-intubated spontaneous-ventilation video-assisted thoracoscopic surgery",
-    "gs_best_sim": 0.3411
+    "gs_best_sim": 0.3411,
+    "review_id": 173
   },
   {
     "source": "scan_2025_Q2",
@@ -3577,7 +3624,8 @@
     "category": "wrong_pmid",
     "journal": "Sultan Qaboos University Medical Journal",
     "gs_best_title": "Etoposide-Associated Severe Rhabdomyolysis in a Patient with Diffuse Large B-Cell Lymphoma: A case report and review of the literature",
-    "gs_best_sim": 0.3602
+    "gs_best_sim": 0.3602,
+    "review_id": 178
   },
   {
     "source": "scan_replacement",
@@ -3592,7 +3640,8 @@
     "category": "wrong_pmid",
     "journal": "Cureus",
     "gs_best_title": "Atypical Nail Manifestations in Kawasaki Disease: Orange-Brown Chromonychia in a Three-Year-Old Boy.",
-    "gs_best_sim": 0.3852
+    "gs_best_sim": 0.3852,
+    "review_id": 179
   },
   {
     "source": "scan_2024_Q1",
@@ -3629,7 +3678,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Endocrinology",
     "gs_best_title": "From hypercortisolism to remission: impact of Cushing's disease on eating patterns",
-    "gs_best_sim": 0.3791
+    "gs_best_sim": 0.3791,
+    "review_id": 181
   },
   {
     "source": "scan_replacement",
@@ -3644,7 +3694,8 @@
     "category": "wrong_pmid",
     "journal": "PLOS Biology",
     "gs_best_title": "Data Reproducibility",
-    "gs_best_sim": 0.6792
+    "gs_best_sim": 0.6792,
+    "review_id": 182
   },
   {
     "source": "scan_2025_Q1",
@@ -3813,7 +3864,8 @@
     "category": "wrong_pmid",
     "journal": "Frontiers in Pharmacology",
     "gs_best_title": "Repurposing major metabolites of lamiaceae family as potential inhibitors of α-synuclein aggregation to alleviate neurodegenerative diseases: an in silico approach",
-    "gs_best_sim": 0.2152
+    "gs_best_sim": 0.2152,
+    "review_id": 190
   },
   {
     "source": "scan_2024_Q3",
@@ -3938,7 +3990,8 @@
     "category": "wrong_pmid",
     "journal": "Clinical, Cosmetic and Investigational Dentistry",
     "gs_best_title": "Radiomorphometric Analysis of the Greater Palatine Canal and the Pterygopalatine Fossa Using Cone Beam Computed Tomography: A Retrospective Study",
-    "gs_best_sim": 0.3733
+    "gs_best_sim": 0.3733,
+    "review_id": 196
   },
   {
     "source": "scan_replacement",
@@ -3953,7 +4006,8 @@
     "category": "wrong_pmid",
     "journal": "Current Issues in Molecular Biology",
     "gs_best_title": "Evaluation of miRNA profile and its relationship with metabolic disorders in obese and pre-obese patients",
-    "gs_best_sim": 0.253
+    "gs_best_sim": 0.253,
+    "review_id": 197
   },
   {
     "source": "scan_2025_Q4",
