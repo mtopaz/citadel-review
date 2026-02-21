@@ -24,7 +24,7 @@ st.set_page_config(
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_round2_100.json")
-VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts")
+VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts_round2")
 os.makedirs(VERDICTS_DIR, exist_ok=True)
 
 # ─── CSS ──────────────────────────────────────────────────────────────────
