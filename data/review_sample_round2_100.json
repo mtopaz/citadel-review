@@ -18,7 +18,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Overview of Research Gaps for Selected Conditions in Women's Health Research at the National Institutes of Health",
     "gs_best_sim": 0.4923,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "The National Academies Collection: reports funded by National Institutes of Health"
   },
   {
     "review_id": 2,
@@ -39,7 +40,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Prospective Comparative Study of EMSella Therapy and Surgical Anterior Colporrhaphy for Urinary Incontinence: Outcomes and Efficacy",
     "gs_best_sim": 0.3243,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Ten-year follow-up of native tissue prolapse repair: Success rates and patient satisfaction"
   },
   {
     "review_id": 3,
@@ -60,7 +62,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "AI-driven drug discovery and repurposing using multi-omics for myocardial infarction and heart failure",
     "gs_best_sim": 0.44878048780487806,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "AI-guided design of an MCU allosteric inhibitor rescues mitochondrial calcium overload in heart failure"
   },
   {
     "review_id": 4,
@@ -81,7 +84,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Structural Properties Before and After Ripening of Ice Cream Made with Different Dairy Fat Bases",
     "gs_best_sim": 0.3059,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Protein intake and muscle mass preservation in aging populations: A review"
   },
   {
     "review_id": 5,
@@ -102,7 +106,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Mathematical modeling of epidemic syphilis transmission: implications for syphilis control programs",
     "gs_best_sim": 0.5731,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Modeling reinfection in syphilis: implications for treatment and control"
   },
   {
     "review_id": 6,
@@ -123,7 +128,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Bronchopulmonary Dysplasia. NICHD/NHLBI/ORD Workshop Summary",
     "gs_best_sim": 0.6667,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "NICHD / NHLBI / ORD workshop Summary"
   },
   {
     "review_id": 7,
@@ -144,7 +150,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Agreement and reliability of remote assessment of actinic keratosis: a proof-of-concept study using smartphone photographs",
     "gs_best_sim": 0.2857,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Actinic keratosis grading"
   },
   {
     "review_id": 8,
@@ -165,7 +172,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Assessing the physical activity of parents of children suffering from cancer: a cross-sectional study",
     "gs_best_sim": 0.3139,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Physical activity promotion for childhood cancer survivors: perspectives from survivors, parents, and healthcare providers"
   },
   {
     "review_id": 9,
@@ -186,7 +194,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Botswana's progress toward achieving the 2020 UNAIDS 90-90-90 antiretroviral therapy and virological suppression goals: a population-based survey",
     "gs_best_sim": 0.6168,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Botswana’s progress toward achieving the 2020 unaids 90-90-90 targets"
   },
   {
     "review_id": 10,
@@ -207,7 +216,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Sensory Modulation Disorder as a Diagnostic Marker in Fibromyalgia: Associations with Stress and Symptom Severity",
     "gs_best_sim": 0.48598130841121495,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Sensory Modulation Disorder: A Potential Underlying Mechanism Linking Pain and Stress in Fibromyalgia"
   },
   {
     "review_id": 11,
@@ -228,7 +238,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Association Between Sociodemographic and Lifestyle Factors and Type 2 Diabetes Risk Scores in a Large Working Population: A Comparative Study …",
     "gs_best_sim": 0.3379,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Diabetes Canada Position Statement: Screening for type 1 and type 2 diabetes"
   },
   {
     "review_id": 12,
@@ -249,7 +260,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Comparative Study of Conventional Exercises Combined With Laser Therapy versus Longwave Diathermy along with Conventional Exercises in …",
     "gs_best_sim": 0.3226,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Evaluation of laser therapy effectiveness in knee osteoarthritis:a clinical trial"
   },
   {
     "review_id": 13,
@@ -270,7 +282,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Framing obesity: The evolution of news discourse on a public health issue",
     "gs_best_sim": 0.4314,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "1398 | Framing health matters | Peer reviewed | Christopher et al. Public Health"
   },
   {
     "review_id": 14,
@@ -291,7 +304,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The Effect of Using Engaging Distraction via Virtual Reality on Stress and Anxiety among Patients with Cancer Undergoing Chemotherapy in Palestine: A Randomized …",
     "gs_best_sim": 0.306,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Technology acceptance in healthcare: A study of electronic health record adoption in Palestinian hospitals"
   },
   {
     "review_id": 15,
@@ -312,7 +326,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Does gender influence clinical expression and disease outcomes in COVID-19? A systematic review and meta-analysis",
     "gs_best_sim": 0.5740740740740741,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Gender disparity in cancer incidence and treatment outcomes in the era of COVID-19: a systematic review"
   },
   {
     "review_id": 16,
@@ -333,7 +348,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Epithelial-to-mesenchymal transition (EMT) and cancer metastasis: the status quo of methods and experimental models 2025",
     "gs_best_sim": 0.6518,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Epithelial-to-mesenchymal transition (EMT) and cancer: molecular mechanisms and therapeutic implications"
   },
   {
     "review_id": 17,
@@ -354,7 +370,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Photothermally Responsive Biomimetic Composite Scaffolds Based on Polydopamine-Functionalized Nanoparticles/Polyurethane for Bone Repair",
     "gs_best_sim": 0.266,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Programming SMPs for minimally invasive implantation"
   },
   {
     "review_id": 18,
@@ -375,7 +392,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Electroencephalogram: expanded applications in clinical and nonclinical settings",
     "gs_best_sim": 0.5989304812834224,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "EEG as a measure of mental health states: a review of its application in clinical and non-clinical contexts"
   },
   {
     "review_id": 19,
@@ -396,7 +414,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Nanoscopic visualization of restricted nonvolume cholinergic and monoaminergic transmission with genetically encoded sensors",
     "gs_best_sim": 0.2082,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Perez De La Mora, M.; Manger, P.; Narváez, M.; Beggiato, S.; Crespo-Ramírez, M.; Navarro, G.; Wydra, K.; Díaz-Cabiale, Z.; Rivera, A.; Ferraro, L.; Tanganelli, S.; Filip, M.; Franco, R.; Fuxe, K. Brain dopamine transmission in health and parkinson’s disease: modulation of synaptic transmission and plasticity through volume transmission and dopamine heteroreceptors."
   },
   {
     "review_id": 20,
@@ -417,7 +436,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Proposed Mechanistic Axis of Infections and mTOR Hyperactivation: A Multidisciplinary Review of Immune, Rheumatologic, and Psychiatric Links",
     "gs_best_sim": 0.2025,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Cytokine signatures in chronic fatigue syndrome: Elevated IL-6 and TNF-α link to symptom severity"
   },
   {
     "review_id": 21,
@@ -438,7 +458,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Male breast cancer: from molecular genetics to clinical management",
     "gs_best_sim": 0.3784,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Matilde pensabene and michelino de laurentiis"
   },
   {
     "review_id": 22,
@@ -459,7 +480,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The effects of knee ligament load using simulated hip abductor and hamstring muscle strengthening during cutting maneuver",
     "gs_best_sim": 0.2081,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Non-contact ACL injuries_mechanisms and risk factors."
   },
   {
     "review_id": 23,
@@ -480,7 +502,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "New perspectives on repetitive behaviour",
     "gs_best_sim": 0.2885,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Natural light exposure and its effects on human health: A review"
   },
   {
     "review_id": 24,
@@ -501,7 +524,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Effects of 4 weeks of whole-body vibration training on energy expenditure during deep squats of male well-trained students",
     "gs_best_sim": 0.3794,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Whole-body vibration during squatting exercise increases lactate concentration without affecting performance in young male athletes"
   },
   {
     "review_id": 25,
@@ -522,7 +546,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Plant-based biofillers for polymer composites: characterization, surface modification, and application potential",
     "gs_best_sim": 0.5027,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Hybrid bio-based composites: A review on recent trends and applications"
   },
   {
     "review_id": 26,
@@ -543,7 +568,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Longevity science and women's health and wellbeing",
     "gs_best_sim": 0.3363,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Postreproductive survival and the role of the elderly in nature"
   },
   {
     "review_id": 27,
@@ -564,7 +590,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Group EMDR therapy for disaster-affected adolescents: evaluating effectiveness and navigating implementation challenges in PTSD, depression, and anxiety",
     "gs_best_sim": 0.2466,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Comparing EMDR and CBT in the treatment of trauma-related disorders"
   },
   {
     "review_id": 28,
@@ -585,7 +612,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Cancer prevalence across vertebrates",
     "gs_best_sim": 0.4782608695652174,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Evidence for neoplastic disease in Paleozoic vertebrates"
   },
   {
     "review_id": 29,
@@ -606,7 +634,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Advances in the engineering of living probiotics for cancer immunotherapy",
     "gs_best_sim": 0.4074,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Probiotic bacteria as a delivery system for tumor antigens and their use in immunotherapy"
   },
   {
     "review_id": 30,
@@ -627,7 +656,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Renal Implications of Psoriasis: Urinary Podocyte Markers and Disease Progression",
     "gs_best_sim": 0.2803738317757009,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Psoriasis is associated with independent risk of diabetes mellitus. Results from the National Psoriasis Foundation Case-Control Study"
   },
   {
     "review_id": 31,
@@ -648,7 +678,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Spatial modeling and ecological suitability of Ebola virus disease in Africa",
     "gs_best_sim": 0.2535,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Modelling species distribution in dynamic landscapes: the importance of temporal variability and the relevance of ecological niche theory"
   },
   {
     "review_id": 32,
@@ -669,7 +700,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Ethical challenges in conducting and the clinical application of human microbiome research",
     "gs_best_sim": 0.5455,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Microbiome Ethics: A Perspective on the Ethical and Political Implications of Microbiome Research"
   },
   {
     "review_id": 33,
@@ -690,7 +722,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Remote multicomponent rehabilitation compared to standard care for survivors of critical illness after hospital discharge (iRehab): a protocol for a randomised …",
     "gs_best_sim": 0.1845,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "ICNARC case mix programme summary (2019–2020)"
   },
   {
     "review_id": 34,
@@ -711,7 +744,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Feasibility of percutaneous coronary intervention using a 7-French thin-walled sheath via the distal radial access",
     "gs_best_sim": 0.5124,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Temporal trends and outcomes of percutaneous coronary intervention in nonagenarians: insights from the National inpatient sample"
   },
   {
     "review_id": 35,
@@ -732,7 +766,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Alcohol Consumption and Beverage Preferences in a Predominantly Female, Highly Educated Spanish Population: A Sociodemographic and Network …",
     "gs_best_sim": 0.3805,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Food consumption patterns in Spain: A comparison with European Mediterranean countries"
   },
   {
     "review_id": 36,
@@ -753,7 +788,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Validation of EORTC QLQ-C30 and QLQ-BR23 questionnaires in the measurement of quality of life of breast cancer patients in Singapore",
     "gs_best_sim": 0.3214,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "QLQ‐BR23 questionnaire (version 1.0)"
   },
   {
     "review_id": 37,
@@ -774,7 +810,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "A Rare Case of Systemic Amyloidosis Involving the Thyroid in a Young Patient",
     "gs_best_sim": 0.3969,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Amyloid Goiter: An Unusual Cause of Thyroid Enlargement"
   },
   {
     "review_id": 38,
@@ -795,7 +832,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Assessment of differential item functioning in the Perceived Stress Scale-10",
     "gs_best_sim": 0.495,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Perceived Stress Scale-10"
   },
   {
     "review_id": 39,
@@ -816,7 +854,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Co-evolution of matrisome and adaptive adhesion dynamics drives ovarian cancer chemoresistance",
     "gs_best_sim": 0.2698,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Gene Expression Omnibus GSE40595"
   },
   {
     "review_id": 40,
@@ -837,7 +876,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Nature‐based coagulants for drinking water treatment: An ecotoxicological overview",
     "gs_best_sim": 0.6267,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Cost assessment of bio-based coagulants for drinking water treatment"
   },
   {
     "review_id": 41,
@@ -858,7 +898,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Palliative care in dementia: a fragmented pathway?",
     "gs_best_sim": 0.2667,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "NICE Guideline NG97, 2018"
   },
   {
     "review_id": 42,
@@ -879,7 +920,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Do Microorganisms in Bathing Water in Guadeloupe (French West Indies) Have Resistance Genes?",
     "gs_best_sim": 0.3607,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Chapter Seven—Metal Resistance"
   },
   {
     "review_id": 43,
@@ -900,7 +942,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Comparative analysis of ureteroileal anastomotic stricture rates: Bricker versus Wallace techniques in ileal conduit urinary diversion—a single-surgeon study …",
     "gs_best_sim": 0.3457,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Obesity and ureteroenteric anastomotic complications: a multi-institutional analysis"
   },
   {
     "review_id": 44,
@@ -921,7 +964,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Glutaryl-CoA dehydrogenase (GCDH) enhances renal malignancy risk via modulating glutarylcarnitine levels",
     "gs_best_sim": 0.22797927461139897,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Global crotonylation profiling reveals novel cancer-related pathways in colorectal cancer"
   },
   {
     "review_id": 45,
@@ -942,7 +986,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The Economic and Occupational Impact of Mental Health-Related Temporary Work Disabilities in Spanish Workers During and After the COVID-19 Pandemic …",
     "gs_best_sim": 0.3877,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Occupational health and safety management in the context of COVID-19: A review"
   },
   {
     "review_id": 46,
@@ -963,7 +1008,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "A novel hybrid CNN-transformer model for arrhythmia detection without R-peak identification using stockwell transform",
     "gs_best_sim": 0.4469,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "A novel deep learning model for classification of sleep stages"
   },
   {
     "review_id": 47,
@@ -984,7 +1030,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "NICE Nuggets: NG69 Eating disorders: Recognition and treatment",
     "gs_best_sim": 0.6615,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "“Eating Disorders: Recognition and Treatment (NICE Guideline NG69).”"
   },
   {
     "review_id": 48,
@@ -1005,7 +1052,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Potential Biotechnological Applications of Venoms from the Viperidae Family in Central America for Thrombosis",
     "gs_best_sim": 0.1871,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Crystal. Struttura Cristallina"
   },
   {
     "review_id": 49,
@@ -1026,7 +1074,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Evaluating a virtual reality–delivered mindfulness intervention for anxiety: a mixed-methods study in real-world community and school settings",
     "gs_best_sim": 0.5205,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Virtual reality mindfulness interventions for mental health: A scoping review"
   },
   {
     "review_id": 50,
@@ -1047,7 +1096,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "SynVectorDB: embedding-based retrieval system for synthetic biology parts",
     "gs_best_sim": 0.5263,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Freegenes: a database of open-source synthetic biology parts"
   },
   {
     "review_id": 51,
@@ -1068,7 +1118,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Understanding the genetics of root system architecture in pigeonpea [Cajanus cajan (L.) Millsp.]",
     "gs_best_sim": 0.2222,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "A root cap-specific gene encodes a novel protein highly conserved in plants"
   },
   {
     "review_id": 52,
@@ -1089,7 +1140,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Direct and residue-free patterning of sub-5 µm CVD monolayer graphene with highly enhanced conductivity and pattern fidelity",
     "gs_best_sim": 0.3231,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Theoretical investigation on the interaction mechanism between graphene oxide and metal ions: a DFT study"
   },
   {
     "review_id": 53,
@@ -1110,7 +1162,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Single‐cell RNA sequencing in osteoarthritis",
     "gs_best_sim": 0.49635036496350365,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Machine Learning Uncovers Novel Markers from Single-Cell RNA-Seq Data for Knee Osteoarthritis"
   },
   {
     "review_id": 54,
@@ -1131,7 +1184,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Smiling and frowning induced by facial neuromuscular electrical stimulation (fNMES) modulate felt emotion and physiology.",
     "gs_best_sim": 0.4157,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Your face and moves seem happier when I smile: Facial action influences the perception of emotional faces and biological motion stimuli."
   },
   {
     "review_id": 55,
@@ -1152,7 +1206,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Influence of root secretions of understory Chinese herbal medicines on the characterization of inter-root microbial communities",
     "gs_best_sim": 0.2472,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Metagenomic analysis reveals the key role of rhizosphere microbiome in mediating soil sickness of Rehmannia glutinosa continuous monoculture"
   },
   {
     "review_id": 56,
@@ -1173,7 +1228,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Origin and evolution of genes in eukaryotes: mechanisms, dynamics, and functional implications",
     "gs_best_sim": 0.4111,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Evolutionary Dynamics of Endogenous Retroviruses and Their Impact on Mammalian Genomes"
   },
   {
     "review_id": 57,
@@ -1194,7 +1250,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Biomarker-guided imaging and AI-augmented diagnosis of degenerative joint disease",
     "gs_best_sim": 0.2347,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Radiographic Parameters of Knee Osteoarthritis and Patient-Reported Outcome Measures: A Cross-Sectional Study of a Polish Population"
   },
   {
     "review_id": 58,
@@ -1215,7 +1272,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Biotic and Abiotic Factors Influencing Maize Plant Height",
     "gs_best_sim": 0.4082,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Multiplex gene editing of GA and BR pathway genes optimizes plant height and yield in rice"
   },
   {
     "review_id": 59,
@@ -1236,7 +1294,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Digitalization era of dental education: A systematic review",
     "gs_best_sim": 0.3256,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Dental and medical problems"
   },
   {
     "review_id": 60,
@@ -1257,7 +1316,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Clinical Competence and Clinical Performance of Nurses: A Cross-sectional Study",
     "gs_best_sim": 0.6792,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Factors affecting clinical competence of nurses in Iran: a cross-sectional study"
   },
   {
     "review_id": 61,
@@ -1278,7 +1338,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Optimizing quarantine in pandemic control: a multi-stage SEIQR modeling approach to COVID-19 transmission dynamics",
     "gs_best_sim": 0.4322,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "The role of hybrid immunity in controlling COVID-19: A mathematical modeling approach"
   },
   {
     "review_id": 62,
@@ -1299,7 +1360,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Community pharmacists' knowledge, attitude, and practices towards dispensing antibiotics without prescription (DAwP): a cross-sectional survey in Makkah …",
     "gs_best_sim": 0.6159,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Community pharmacists’ knowledge and practices towards antibiotic dispensing and antimicrobial stewardship in Saudi Arabia"
   },
   {
     "review_id": 63,
@@ -1320,7 +1382,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Machine learning-driven dissection of the obesity-ccRCC interface: FCGR2A emerges as a central coordinator of tumor-immune crosstalk",
     "gs_best_sim": 0.3431,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Clonal evolution and therapeutic vulnerabilities in renal cell carcinoma"
   },
   {
     "review_id": 64,
@@ -1341,7 +1404,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Follow-up of long COVID based on the definition of WHO: a multi-centre cross-sectional questionnaire-based study",
     "gs_best_sim": 0.5272727272727272,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Traditional Chinese syndrome differentiation of palpitation: a multi-centre prospective observational study."
   },
   {
     "review_id": 65,
@@ -1362,7 +1426,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Mejora en la rentabilidad e indicaciones de la extracción de hemocultivos en los servicios de urgencias: otro paso adelante",
     "gs_best_sim": 0.5596,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Análisis estacional de los hemocultivos solicitados desde un servicio de urgencias hospitalario"
   },
   {
     "review_id": 66,
@@ -1383,7 +1448,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Capacitive sensors for label-free detection in high-ionic-strength bodily fluids: a review",
     "gs_best_sim": 0.2641509433962264,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Detection of protein binding based on nanogap embedded FET biosensors"
   },
   {
     "review_id": 67,
@@ -1404,7 +1470,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Central limit theorem for random fields and applications",
     "gs_best_sim": 0.5633802816901409,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "The central limit theorem in practice: Applications and implications for data analysis"
   },
   {
     "review_id": 68,
@@ -1425,7 +1492,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Comparative analysis of biofilm detection methods and antibiotic resistance in catheter-associated uropathogens: a cross-sectional study from Syria",
     "gs_best_sim": 0.3248,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Biofilm formation by urinary pathogens and its implications in urinary tract infections"
   },
   {
     "review_id": 69,
@@ -1446,7 +1514,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Dual-target tDCS and dual-task training modulate neuroinflammation and neuroplasticity: transcriptomic and behavioral evidence in stroke rehabilitation",
     "gs_best_sim": 0.5411764705882353,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Cognitive–motor dual-task training: Mechanisms, neuroplasticity, and application to neurorehabilitation."
   },
   {
     "review_id": 70,
@@ -1467,7 +1536,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The Ebola virus–going beyond the bleeding edge",
     "gs_best_sim": 0.4211,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Ebola and transfusion medicine"
   },
   {
     "review_id": 71,
@@ -1488,7 +1558,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Non‐invasive brain stimulation techniques for chronic pain",
     "gs_best_sim": 0.6944,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Exploring non-invasive brain stimulation techniques for tremor management: an overview"
   },
   {
     "review_id": 72,
@@ -1509,7 +1580,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Natural cyclic peptides: Synthetic strategies and biomedical applications",
     "gs_best_sim": 0.4051,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Cadenamides A and B, Bioactive Lipopeptides from the Marine Cyanobacterium Lyngbya sp."
   },
   {
     "review_id": 73,
@@ -1530,7 +1602,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Trends in prenatal exposure to antiseizure medications over the past decade: a nationwide study",
     "gs_best_sim": 0.3318,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Risk of childhood cancer among children born after assisted reproductive technologies: a nationwide cohort study in France"
   },
   {
     "review_id": 74,
@@ -1551,7 +1624,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Chronotype, Night Shift Work, and Diurnal Salivary Cortisol Rhythms Among Healthcare Professionals",
     "gs_best_sim": 0.239,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Cortisol awakening response in nurses working rotating shifts"
   },
   {
     "review_id": 75,
@@ -1572,7 +1646,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Trade-off analysis of classical machine learning and deep learning models for robust brain tumor detection: Benchmark study",
     "gs_best_sim": 0.44,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Fused deep learning models for deploying AI in low-resource clinical settings"
   },
   {
     "review_id": 76,
@@ -1593,7 +1668,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Effectiveness of gamma-oryzanol in glycaemic control and managing oxidative stress, inflammation, and dyslipidaemia in diabetes: a systematic review of preclinical …",
     "gs_best_sim": 0.3802,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Costus igneus: the insulin plant and its preparations as a remedial approach for diabetes mellitus"
   },
   {
     "review_id": 77,
@@ -1614,7 +1690,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Orthodontic Bracket Removal and Enamel Roughness: Comparing the Effects of Sapphire and Metallic Brackets in an In Vitro Study",
     "gs_best_sim": 0.3519,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Surface Roughness of Different Bulk-Fill Composite Restorative Materials after Polishing: An In Vitro Study"
   },
   {
     "review_id": 78,
@@ -1635,7 +1712,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Performance of high-sensitivity cardiac troponin assays to reflect comorbidity burden and improve mortality risk stratification in older adults with diabetes",
     "gs_best_sim": 0.3902,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Collinson PO; IFCC Task Force on Clinical Applications of Cardiac Biomarkers. Analytical characteristics of high-sensitivity cardiac troponin assays [published correction appears in Clin Chem. 2012 Apr;58(4):796]."
   },
   {
     "review_id": 79,
@@ -1656,7 +1734,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Immune snapshots along the inflammation-to-cancer road in bladder urothelium",
     "gs_best_sim": 0.1848,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "68Ga]Ga-FAPI-46 PET/CT in early detection of lymph node metastasis in head and neck squamous cell carcinomas"
   },
   {
     "review_id": 80,
@@ -1677,7 +1756,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "A meta-analysis of the efficacy of physical exercise interventions on activities of daily living in patients with Alzheimer's disease",
     "gs_best_sim": 0.2357,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "BDNF-activated astrocytic TrkBT1 signaling regulates the hippocampal learning and memory via modulation of neuronal Arc expression"
   },
   {
     "review_id": 81,
@@ -1698,7 +1778,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Phase I study of the anti-TIGIT antibody tiragolumab in combination with atezolizumab in Japanese patients with advanced or metastatic solid tumors",
     "gs_best_sim": 0.6029,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Phase 1a/1b study of the anti-TIGIT antibody tiragolumab as a single agent, and in combination with atezolizumab, in patients with advanced solid tumors: dose-escalation and expansion in PD-L1-positive non-small cell lung cancer and metastatic esophageal cancer"
   },
   {
     "review_id": 82,
@@ -1719,7 +1800,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Public's Experience with an Online Reservation System for Residual COVID-19 Vaccines and the Potential for Increasing the Actual Vaccination Rate",
     "gs_best_sim": 0.4064,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Using Geographical Information Systems and Spatial Analysis to Target Populations for Measles Vaccinations"
   },
   {
     "review_id": 83,
@@ -1740,7 +1822,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Feeding or starvation: which condition makes the red palm weevil, Rhynchophorus ferrugineus Olivier, more susceptible to insecticides?",
     "gs_best_sim": 0.5047,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Unveiling genetic diversity, new mutants, and gene flow of the red palm weevil¸ Rhynchophorus ferrugineus (Coleoptera: Curculionidae), in Qassim, Saudi Arabia, using COI and ITS sequences"
   },
   {
     "review_id": 84,
@@ -1761,7 +1844,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The relationship between emotional expression skills and psychosocial care competencies among nurses in Turkey: a cross-sectional study",
     "gs_best_sim": 0.2844,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "The many faces of self-control: individual differences in emotion regulation"
   },
   {
     "review_id": 85,
@@ -1782,7 +1866,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Personalized predictions of treatment outcome in patients with post-stroke depressive symptoms",
     "gs_best_sim": 0.55,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "The role of baseline depression severity in predicting treatment response to CBT in post-stroke depression"
   },
   {
     "review_id": 86,
@@ -1803,7 +1888,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Prognostic factors affecting survival and recurrence in patients undergoing curative surgery for rectal cancer: a 10-year retrospective cohort study from a …",
     "gs_best_sim": 0.2944,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "CEA trend and colorectal cancer survival"
   },
   {
     "review_id": 87,
@@ -1824,7 +1910,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Antibacterial and chemical profiling of Ulva intestinalis collected from Egypt",
     "gs_best_sim": 0.2588,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Halogen bonding in drug design: recent advances and applications against infectious diseases"
   },
   {
     "review_id": 88,
@@ -1845,7 +1932,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Association of Cognitive Function, Quality of Life, and Sleep Disorders in Children With Depression",
     "gs_best_sim": 0.3625,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Screening for Depression and Suicide in Children. 2023 Jun 21"
   },
   {
     "review_id": 89,
@@ -1866,7 +1954,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Estimation of salivary protectin D1 in periodontitis patients with metabolic syndrome following non-surgical periodontal therapy",
     "gs_best_sim": 0.2466,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Host-bacterial interaction in periodontal disease: mechanism and roles of systemic diseases"
   },
   {
     "review_id": 90,
@@ -1887,7 +1976,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Understanding the support needs and challenges faced by family caregivers in the care of their older adults at home. A qualitative study",
     "gs_best_sim": 0.375,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Roles and responsibilities of informal caregivers in medication management within home care settings: a survey of caregiving experiences"
   },
   {
     "review_id": 91,
@@ -1908,7 +1998,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Massive hemoptysis due to pulmonary artery pseudoaneurysm in invasive aspergillosis in a patient with interstitial lung disease and suspected Aspergillioma …",
     "gs_best_sim": 0.4257,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Imaging findings in pulmonary invasive aspergillosis: clinical significance of the halo sign"
   },
   {
     "review_id": 92,
@@ -1929,7 +2020,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "The role of dietary antioxidants, food supplements and functional foods for energy enhancement in healthcare professionals",
     "gs_best_sim": 0.2722,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Coenzyme Q10—Significance in health and disease"
   },
   {
     "review_id": 93,
@@ -1950,7 +2042,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "EPC methods: AHRQ End-user perspectives of rapid reviews",
     "gs_best_sim": 0.4894,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "AHRQ Methods for Effective Health Care"
   },
   {
     "review_id": 94,
@@ -1971,7 +2064,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Population Structure Plays a Key Role in Community Stability",
     "gs_best_sim": 0.463,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "“Structured Community Matrix Zenodo Repository.”"
   },
   {
     "review_id": 95,
@@ -1992,7 +2086,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "A Novel Subset of Pro-Inflammatory Macrophages Serves as a Switch from Metabolically Healthy Obesity to Metabolically Unhealthy Obesity",
     "gs_best_sim": 0.1333,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Choi, Hong Wang, Xiaofeng Yang"
   },
   {
     "review_id": 96,
@@ -2013,7 +2108,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Caffeine intake mediates the relationship between problematic overstudying and psychological distress",
     "gs_best_sim": 0.32,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Negative emotionality, emotion regulation and coping in tobacco dependence"
   },
   {
     "review_id": 97,
@@ -2034,7 +2130,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Differential activation of spinal microglial and astroglial cells in a mouse model of peripheral neuropathic pain",
     "gs_best_sim": 0.49523809523809526,
-    "pipeline": "fab_title"
+    "pipeline": "fab_title",
+    "claimed_title": "Microglia Activation in the Spinal Cord Contributes to Hyperalgesia in a Fibromyalgia Mouse Model"
   },
   {
     "review_id": 98,
@@ -2055,7 +2152,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Acceptance level and influencing factors of advance care planning among patients with schizophrenia in China: a cross-sectional survey",
     "gs_best_sim": 0.4726,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Evaluation of cognitive function in patients with stable schizophrenia by C-BCT and its related factors"
   },
   {
     "review_id": 99,
@@ -2076,7 +2174,8 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Vaso-Occlusive Thrombotic Ischemic Colitis Presenting With Large-Volume Hematochezia in Sickle Cell Beta+-Thalassemia",
     "gs_best_sim": 0.2391,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Diseases and drugs that cause acute lower gastrointestinal bleeding"
   },
   {
     "review_id": 100,
@@ -2097,6 +2196,7 @@
     "gs_verdict": "not_found",
     "gs_best_title": "Ten myths of back pain in older adults that can lead to ineffective and harmful care",
     "gs_best_sim": 0.2946,
-    "pipeline": "wrong_pmid"
+    "pipeline": "wrong_pmid",
+    "claimed_title": "Ten commonly held beliefs about low back\npain"
   }
 ]
