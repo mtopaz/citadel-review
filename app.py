@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 """
-CITADEL Blinded Validation Review — Railway Deployment
+CITADEL Blinded Validation Review — Round 2 — Railway Deployment
 
-Three reviewers independently classify 200 stratified references as
-Fabricated / Citation Error / Correct / Unsure. No system verdicts shown — fully blinded.
+Two reviewers independently classify 100 confirmed-fake references as
+Fabricated / Not Fabricated / Unsure. No system verdicts shown — fully blinded.
 
 Persistence: SQLite on Railway's persistent disk. Verdicts survive restarts.
 """
@@ -23,7 +23,7 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_200.json")
+SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_round2_100.json")
 VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts")
 os.makedirs(VERDICTS_DIR, exist_ok=True)
 
@@ -235,7 +235,7 @@ def admin_page():
         for r in rows:
             v_counts[r[3]] = v_counts.get(r[3], 0) + 1
         summary = " · ".join(f"{k}: {v}" for k, v in sorted(v_counts.items()))
-        st.write(f"**{rid}**: {len(rows)}/200 reviewed — {summary}")
+        st.write(f"**{rid}**: {len(rows)}/100 reviewed — {summary}")
 
     # Full backup as JSON
     st.subheader("Full Backup")
@@ -295,10 +295,10 @@ if reviewer_id is None:
             Citadel
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:600; margin-bottom:6px;">
-            Blinded Validation Review
+            Blinded Validation Review — Round 2
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:14px; color:#918e85; margin-bottom:28px;">
-            200 references to classify &middot; 3 independent reviewers
+            100 references to classify &middot; 2 independent reviewers
         </div>
     </div>
     """)
@@ -316,11 +316,10 @@ if reviewer_id is None:
     st.html("""
     <div style="max-width:480px; margin:20px auto; font-family:'DM Sans',sans-serif;
                 font-size:13px; color:#918e85; line-height:1.7;">
-        <b>Instructions:</b> For each reference, determine whether the cited paper exists.
-        Use the search links to verify.<br><br>
-        <b style="color:#c23030;">Fabricated Citation</b> &mdash; Paper does not exist anywhere<br>
-        <b style="color:#a06b1a;">Citation Error</b> &mdash; Paper exists but PMID/DOI are wrong<br>
-        <b style="color:#2d8a52;">Correct Citation</b> &mdash; Paper exists and identifiers match<br>
+        <b>Instructions:</b> For each reference, determine whether the cited paper is real or fabricated.
+        Use the search links to verify. Search PubMed, Google Scholar, CrossRef, and any other databases you prefer.<br><br>
+        <b style="color:#c23030;">Fabricated Citation</b> &mdash; Paper does not exist anywhere (title is made up)<br>
+        <b style="color:#2d8a52;">Not Fabricated</b> &mdash; Paper exists (even if PMID/DOI are wrong)<br>
         <b style="color:#555550;">Unsure</b> &mdash; Cannot determine
     </div>
     """)
@@ -349,7 +348,7 @@ st.html(f"""
 <div class="topbar">
     <div class="topbar-left">
         <div class="logo">Citadel</div>
-        <div class="logo-sub">Blinded Review</div>
+        <div class="logo-sub">Blinded Review — Round 2</div>
     </div>
     <div style="font-family:'DM Mono',monospace; font-size:12px; color:#555550;">
         {reviewer_id} &middot; #{review_id}/{total}
@@ -451,8 +450,7 @@ with right:
 
     verdict_options = {
         "fabricated": "Fabricated Citation \u2014 Does not exist anywhere",
-        "citation_error": "Citation Error \u2014 Exists but PMID/DOI wrong",
-        "correct": "Correct Citation \u2014 Exists and identifiers match",
+        "not_fabricated": "Not Fabricated \u2014 Paper exists (even if PMID/DOI wrong)",
         "unsure": "Unsure \u2014 Cannot determine",
     }
 
@@ -524,10 +522,9 @@ with right:
 
         st.html(f"""
         <div style="font-family:'DM Mono',monospace; font-size:11px; margin-top:8px;">
-            <span style="color:#c23030;">Fab: {v_counts.get('fabricated', 0)}</span> &middot;
-            <span style="color:#a06b1a;">Err: {v_counts.get('citation_error', 0)}</span> &middot;
-            <span style="color:#2d8a52;">OK: {v_counts.get('correct', 0)}</span> &middot;
-            <span style="color:#555550;">?: {v_counts.get('unsure', 0)}</span> &middot;
+            <span style="color:#c23030;">Fabricated: {v_counts.get('fabricated', 0)}</span> &middot;
+            <span style="color:#2d8a52;">Not Fab: {v_counts.get('not_fabricated', 0)}</span> &middot;
+            <span style="color:#555550;">Unsure: {v_counts.get('unsure', 0)}</span> &middot;
             <span>{reviewed_count}/{total}</span>
         </div>
         """)
