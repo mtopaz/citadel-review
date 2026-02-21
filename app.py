@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 """
-CITADEL Blinded Validation Review — Round 2 — Railway Deployment
+CITADEL LLM FP Review — Railway Deployment
 
-Two reviewers independently classify 100 confirmed-fake references as
-Fabricated / Not Fabricated / Unsure. No system verdicts shown — fully blinded.
+Review GPT-flagged potential false positives. Each entry was flagged by gpt-4o-mini
+as a possible false positive with a specific pattern. Verify whether the LLM is correct.
 
 Persistence: SQLite on Railway's persistent disk. Verdicts survive restarts.
 """
@@ -23,8 +23,8 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_round3_100.json")
-VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts_round3")
+SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_llm_fp.json")
+VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts_llm_fp")
 os.makedirs(VERDICTS_DIR, exist_ok=True)
 
 # ─── CSS ──────────────────────────────────────────────────────────────────
@@ -98,6 +98,20 @@ st.html("""
     }
     .meta-value { color: #555550; }
     .meta-value a { color: #2b6cb0; text-decoration: none; }
+
+    .llm-card {
+        background: #f0f4ff; border: 1px solid #c5d4f0;
+        border-left: 3px solid #4a7cdb; border-radius: 6px;
+        padding: 10px 14px; margin-bottom: 8px;
+    }
+    .llm-pattern {
+        font-family: 'DM Mono', monospace; font-size: 11px; font-weight: 600;
+        color: #4a7cdb; text-transform: uppercase; letter-spacing: 1px;
+    }
+    .llm-reason {
+        font-family: 'DM Sans', sans-serif; font-size: 13px; color: #444;
+        line-height: 1.5; margin-top: 4px;
+    }
 
     .actual-card {
         background: #fff9ef; border: 1px solid #e0ddd5;
@@ -295,10 +309,10 @@ if reviewer_id is None:
             Citadel
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:600; margin-bottom:6px;">
-            Blinded Validation Review — Round 2
+            LLM False Positive Review
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:14px; color:#918e85; margin-bottom:28px;">
-            100 references to classify &middot; 2 independent reviewers
+            GPT-flagged potential false positives &middot; verify LLM reasoning
         </div>
     </div>
     """)
@@ -316,10 +330,10 @@ if reviewer_id is None:
     st.html("""
     <div style="max-width:480px; margin:20px auto; font-family:'DM Sans',sans-serif;
                 font-size:13px; color:#918e85; line-height:1.7;">
-        <b>Instructions:</b> For each reference, determine whether the cited paper is real or fabricated.
-        Use the search links to verify. Search PubMed, Google Scholar, CrossRef, and any other databases you prefer.<br><br>
-        <b style="color:#c23030;">Fabricated Citation</b> &mdash; Paper does not exist anywhere (title is made up)<br>
-        <b style="color:#2d8a52;">Not Fabricated</b> &mdash; Paper exists (even if PMID/DOI are wrong)<br>
+        <b>Instructions:</b> GPT-4o-mini flagged these as potential false positives in our fabricated citations pool.
+        For each, verify whether the LLM is correct — is this truly a real paper we mislabeled?<br><br>
+        <b style="color:#2d8a52;">Agree (FP)</b> &mdash; LLM is right, this is NOT fabricated (real paper / parsing issue)<br>
+        <b style="color:#c23030;">Disagree (TP)</b> &mdash; LLM is wrong, this IS fabricated<br>
         <b style="color:#555550;">Unsure</b> &mdash; Cannot determine
     </div>
     """)
@@ -348,7 +362,7 @@ st.html(f"""
 <div class="topbar">
     <div class="topbar-left">
         <div class="logo">Citadel</div>
-        <div class="logo-sub">Blinded Review — Round 2</div>
+        <div class="logo-sub">LLM FP Review</div>
     </div>
     <div style="font-family:'DM Mono',monospace; font-size:12px; color:#555550;">
         {reviewer_id} &middot; #{review_id}/{total}
@@ -403,6 +417,27 @@ with left:
     </div>
     """)
 
+    # LLM reasoning card
+    llm_pattern = entry.get("llm_fp_pattern", "")
+    llm_reason = entry.get("llm_fp_reason", "")
+    if llm_pattern:
+        pattern_labels = {
+            'foreign_language': 'Foreign Language Translation',
+            'parsing_artifact': 'Parsing Artifact / Metadata',
+            'title_substring': 'Title Substring Match',
+            'institutional_doc': 'Institutional Document / Guideline',
+            'database': 'Database / Dataset Name',
+            'journal_as_title': 'Journal / Venue as Title',
+        }
+        pattern_label = pattern_labels.get(llm_pattern, llm_pattern)
+        st.html(f"""
+        <div class="llm-card">
+            <div style="font-family:'DM Mono',monospace; font-size:9px; color:#4a7cdb; text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">GPT-4o-mini says: False Positive</div>
+            <div class="llm-pattern">{pattern_label}</div>
+            <div class="llm-reason">{llm_reason}</div>
+        </div>
+        """)
+
     # What PMID actually resolves to
     actual_pmid = entry.get("actual_title_pmid", "")
     actual_doi = entry.get("actual_title_doi", "")
@@ -449,8 +484,8 @@ with right:
     st.html('<div class="section-label">Your Verdict</div>')
 
     verdict_options = {
-        "fabricated": "Fabricated Citation \u2014 Does not exist anywhere",
-        "not_fabricated": "Not Fabricated \u2014 Paper exists (even if PMID/DOI wrong)",
+        "agree_fp": "Agree (FP) \u2014 LLM is right, paper exists / not fabricated",
+        "disagree_tp": "Disagree (TP) \u2014 LLM is wrong, this IS fabricated",
         "unsure": "Unsure \u2014 Cannot determine",
     }
 
@@ -522,8 +557,8 @@ with right:
 
         st.html(f"""
         <div style="font-family:'DM Mono',monospace; font-size:11px; margin-top:8px;">
-            <span style="color:#c23030;">Fabricated: {v_counts.get('fabricated', 0)}</span> &middot;
-            <span style="color:#2d8a52;">Not Fab: {v_counts.get('not_fabricated', 0)}</span> &middot;
+            <span style="color:#2d8a52;">Agree FP: {v_counts.get('agree_fp', 0)}</span> &middot;
+            <span style="color:#c23030;">Disagree TP: {v_counts.get('disagree_tp', 0)}</span> &middot;
             <span style="color:#555550;">Unsure: {v_counts.get('unsure', 0)}</span> &middot;
             <span>{reviewed_count}/{total}</span>
         </div>
