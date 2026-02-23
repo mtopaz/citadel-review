@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-CITADEL Blinded Validation Review — Round 4 — Railway Deployment
+CITADEL Blinded Validation Review — Round 5 — Railway Deployment
 
 Three reviewers independently classify 100 confirmed-fabricated references as
 Fabricated / Not Fabricated / Unsure. No system verdicts shown — fully blinded.
@@ -23,8 +23,8 @@ st.set_page_config(
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_round4_100.json")
-VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts_round4")
+SAMPLE_PATH = os.path.join(BASE_DIR, "data", "review_sample_round5_100.json")
+VERDICTS_DIR = os.path.join(BASE_DIR, "data", "verdicts_round5")
 os.makedirs(VERDICTS_DIR, exist_ok=True)
 
 # ─── CSS ──────────────────────────────────────────────────────────────────
@@ -309,7 +309,7 @@ if reviewer_id is None:
             Citadel
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:22px; font-weight:600; margin-bottom:6px;">
-            Blinded Validation Review — Round 4
+            Blinded Validation Review — Round 5
         </div>
         <div style="font-family:'DM Sans',sans-serif; font-size:14px; color:#918e85; margin-bottom:28px;">
             100 references to classify &middot; 3 independent reviewers
@@ -362,7 +362,7 @@ st.html(f"""
 <div class="topbar">
     <div class="topbar-left">
         <div class="logo">Citadel</div>
-        <div class="logo-sub">Blinded Review — Round 4</div>
+        <div class="logo-sub">Blinded Review — Round 5</div>
     </div>
     <div style="font-family:'DM Mono',monospace; font-size:12px; color:#555550;">
         {reviewer_id} &middot; #{review_id}/{total}
